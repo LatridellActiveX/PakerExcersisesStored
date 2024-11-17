@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+/* changed font family in body instead of wrapper, could have done either or*/
+body {
+  background-color: black;
+  font-family: "Geist Mono", "Arial Narrow Bold", sans-serif;
+  margin: 0rem;
+}
+
+header {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#wrapper {
+  margin: auto;
+  width: 95%;
+  background-color: #282929;
+  color: white;
+  border: 5px solid lightblue;
+  padding: 1rem;
+  border-radius: 1%;
+}
+
+nav {
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-shadow: 2px 2px lightblue;
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: 750;
+  text-align: center;
+  color: #6d9194;
+}
+
+h2 {
+  color: #6d9194;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px lightblue;
+}
+
+h3 {
+  color: #6d9194;
+}
+
+#hook {
+  color: lightblue;
+}
+
+p {
+  line-height: 1.5;
+  color: white;
+}
+
+/* picking a good contrasting color for the link was challenging */
+a {
+  text-decoration: none;
+  color: #39a3fa;
+}
+a:hover {
+  color: aqua;
+  font-weight: bold;
+}
