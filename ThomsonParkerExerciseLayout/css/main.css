@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+/* changed font family in body instead of wrapper, could have done either or*/
+body {
+  background-color: black;
+  font-family: "Geist Mono", "Arial Narrow Bold", sans-serif;
+  margin: 0rem;
+}
+
+header {
+  margin: auto auto 3rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#wrapper {
+  margin: auto;
+  width: 95%;
+  background-color: #282929;
+  color: white;
+  border: 5px solid lightblue;
+  padding: 1rem;
+  border-radius: 1%;
+}
+
+/*removed margin since flex container (header) spaces it as needed*/
+nav {
+  margin: 0;
+}
+
+/*Removed list item default padding. */
+ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+/*Centered text here so that the last list item aligns center on the vertical axis when screen size is reduced*/
+li {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+/*Removed margin since flex container properties space it accordingly*/
+h1 {
+  text-shadow: 2px 2px lightblue;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 750;
+  text-align: center;
+  color: #6d9194;
+}
+
+h2 {
+  color: #6d9194;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px lightblue;
+}
+
+h3 {
+  color: #6d9194;
+}
+
+#hook {
+  color: lightblue;
+}
+
+p {
+  line-height: 1.5;
+  color: white;
+}
+
+/* picking a good contrasting color for the link was challenging */
+a {
+  text-decoration: none;
+  color: #39a3fa;
+}
+a:hover {
+  color: aqua;
+  font-weight: bold;
+}
