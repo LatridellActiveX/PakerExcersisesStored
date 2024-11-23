@@ -29,6 +29,54 @@ header {
   border-radius: 1%;
 }
 
+/* Styles for our contact form section*/
+
+#contactSection h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin: auto;
+  width: fit-content;
+  background-color: #343636;
+}
+
+form hr {
+  width: 80%;
+}
+
+input,
+label {
+  display: block;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+}
+
+#form-check > label {
+  display: inline-block;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  width: fit-content;
+  height: 3rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: darkslategrey;
+}
+
 /*removed margin since flex container (header) spaces it as needed*/
 nav {
   margin: 0;
